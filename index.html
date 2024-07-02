@@ -10,6 +10,16 @@
     
       gtag('config', 'G-42N8MG927T');
     </script>
+    <script>
+      document.getElementById('pinus-dlingo-link').addEventListener('click', function() {
+        gtag('event', 'click', {
+          'event_category': 'Destination',
+          'event_label': 'Pinus Dlingo, Yogyakarta',
+          'value': 1
+        });
+      });
+    </script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -107,7 +117,8 @@
                 <div class="card overflow-hidden shadow"> <img class="card-img-top" src="public/assets/img/dest/dest1.jpg" alt="Rome, Italty" />
                   <div class="card-body py-4 px-3">
                     <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                      <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Pinus Dlingo, Yogyakarta</a></h4><span class="fs-1 fw-medium">Rp 125k</span>
+                      <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!" id="pinus-dlingo-link">Pinus Dlingo, Yogyakarta</a>
+                      </h4><span class="fs-1 fw-medium">Rp 125k</span>
                     </div>
                     <div class="d-flex align-items-center"> <img src="public/assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">2 Day 1 Malam</span></div>
                   </div>
